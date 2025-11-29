@@ -1,9 +1,118 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.1">
   <diagram name="Page-1" id="vU9NA-V-0WlJK7D538GW">
-    <mxGraphModel>
+    <mxGraphModel dx="4104" dy="2528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-1" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Начало" vertex="1">
+          <mxGeometry height="39" width="78" x="386" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Читатель приходит в библиотеку" vertex="1">
+          <mxGeometry height="78" width="260" x="295" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Есть читательский билет?" vertex="1">
+          <mxGeometry height="245" width="245" x="302" y="457" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Оформить читательский билет" vertex="1">
+          <mxGeometry height="78" width="260" x="378" y="776" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Читатель получает билет" vertex="1">
+          <mxGeometry height="54" width="247" x="384" y="928" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Читатель выбирает книгу из каталога" vertex="1">
+          <mxGeometry height="78" width="260" x="295" y="1032" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Книга доступна?" vertex="1">
+          <mxGeometry height="175" width="175" x="471" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Предложить выбрать другую книгу" vertex="1">
+          <mxGeometry height="78" width="260" x="140" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Система регистрирует выдачу книги" vertex="1">
+          <mxGeometry height="78" width="260" x="450" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Читатель получает книгу" vertex="1">
+          <mxGeometry height="54" width="245" x="457" y="1537" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-11" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Конец" vertex="1">
+          <mxGeometry height="39" width="70" x="545" y="1641" as="geometry" />
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-12" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-13" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-14" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-4" value="Нет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="508" y="739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-15" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-16" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.69;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="508" y="1007" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-17" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.31;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-6" value="Да">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="343" y="739" />
+              <mxPoint x="343" y="1007" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-18" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="559" y="1135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-19" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-7" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.9;entryX=0.76;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-8" value="Нет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="1372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-20" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=0;entryX=0.1;entryY=1;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="253" y="1372" />
+              <mxPoint x="253" y="1135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-21" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-9" value="Да">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-22" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VaYIf2xAiCAuU2hm9FzC-23" edge="1" parent="1" source="VaYIf2xAiCAuU2hm9FzC-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="VaYIf2xAiCAuU2hm9FzC-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
